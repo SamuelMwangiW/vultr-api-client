@@ -171,13 +171,6 @@ class Vultr
   }
 
   /**
-   * @param string $api_token
-   */
-  public function setApiToken($api_token)
-  {
-    $this->api_token = $api_token;
-  }
-  /**
    * Get Account info
    * @see https://www.vultr.com/api/#account_info
    * @return mixed
